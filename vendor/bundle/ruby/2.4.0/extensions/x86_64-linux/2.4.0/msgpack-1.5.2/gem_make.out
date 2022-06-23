@@ -1,0 +1,285 @@
+current directory: /home/ubuntu/DeccampPortfolio/vendor/bundle/ruby/2.4.0/gems/msgpack-1.5.2/ext/msgpack
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.4.0/lib/ruby/site_ruby/2.4.0 -r ./siteconf20220623-12009-v38oo9.rb extconf.rb
+checking for ruby/st.h... yes
+checking for st.h... yes
+checking for rb_enc_interned_str() in ruby.h... no
+creating Makefile
+
+current directory: /home/ubuntu/DeccampPortfolio/vendor/bundle/ruby/2.4.0/gems/msgpack-1.5.2/ext/msgpack
+make DESTDIR\= clean
+
+current directory: /home/ubuntu/DeccampPortfolio/vendor/bundle/ruby/2.4.0/gems/msgpack-1.5.2/ext/msgpack
+make DESTDIR\=
+compiling buffer.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling buffer_class.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling extension_value_class.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from extension_value_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from extension_value_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling factory_class.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from factory_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from factory_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling packer.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from packer.h:21,
+                 from packer.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from packer.h:21,
+                 from packer.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling packer_class.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling packer_ext_registry.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_ext_registry.h:21,
+                 from packer_ext_registry.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_ext_registry.h:21,
+                 from packer_ext_registry.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling rbinit.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer_class.h:21,
+                 from rbinit.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer_class.h:21,
+                 from rbinit.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling rmem.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from rmem.h:21,
+                 from rmem.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from rmem.h:21,
+                 from rmem.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling unpacker.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling unpacker_class.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker_class.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling unpacker_ext_registry.c
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from unpacker_ext_registry.h:21,
+                 from unpacker_ext_registry.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from unpacker_ext_registry.h:21,
+                 from unpacker_ext_registry.c:19:
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/ubuntu/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+linking shared-object msgpack/msgpack.so
+
+current directory: /home/ubuntu/DeccampPortfolio/vendor/bundle/ruby/2.4.0/gems/msgpack-1.5.2/ext/msgpack
+make DESTDIR\= install
+/usr/bin/install -m 0755 msgpack.so ./.gem.20220623-12009-osrm2w/msgpack
