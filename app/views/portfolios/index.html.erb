@@ -5,9 +5,10 @@
 
 <h1>Portfolios</h1>
 <% @portfolios.each do |portfolio_item|%>
-<p> <%= link_to portfolio_item.tittle ,portfolio_path(portfolio_item.id) %>   </p>
+<p> <%= link_to portfolio_item.tittle ,portfolio_path(portfolio_item) %>   </p>
 <p> <%=portfolio_item.subtittle %>   </p>
 <p> <%=portfolio_item.body %>   </p>
  <%=image_tag portfolio_item.thumb_image unless portfolio_item.thumb_image.nil? %>   
  <%= link_to"Edit" ,edit_portfolio_url(portfolio_item.id) %>
+ <%= link_to 'Destroy', portfolio_path(portfolio_item.id), method: :delete, data: { confirm: 'Are you sure?' } %>
 <% end %>	
