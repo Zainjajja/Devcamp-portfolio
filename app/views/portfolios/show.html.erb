@@ -1,15 +1,16 @@
 
 <P id="notice"><%= notice %></p>
+  <%= image_tag @portfolio.main_image%>
 <p>
-  <strong>tittle:</strong>
+  <h1>tittle:</h1>
   <%= @portfolio.tittle %>
 </p>
 <p>
-  <strong>subTittle:</strong>
+  <em>subTittle:</em>
   <%= @portfolio.subtittle %>
 </p>
 
 <p>
-  <strong>Body:</strong>
+  <p>Body:</p>
   <%= @portfolio.body %>
 </p>
