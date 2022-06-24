@@ -1,0 +1,22 @@
+<%= form_for(@portfolios) do |form| %>
+
+
+  <div class="field">
+    <%= form.label :tittle %>
+    <%= form.text_field :tittle %>
+  </div>
+  <div class="field">
+    <%= form.label :subtittle %>
+    <%= form.text_field :subtittle %>
+  </div>
+
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+
+ <% end %>
