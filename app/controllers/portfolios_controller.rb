@@ -2,10 +2,10 @@ class PortfoliosController < ApplicationController
     before_action :set_portfolio, only: %i[ show edit update destroy ]
 
 	def index
-        @portfolios = Portfolio.where(subtittle:"Ruby on Rails")
+        @portfolios = Portfolio.all
     end
-    def angular
-    @angular_portfolio_items=Portfolio.angular 
+    #def angular
+    #@angular_portfolio_items=Portfolio.angular 
     end
 
     def new
@@ -59,4 +59,4 @@ def destroy
     end
 
 
-end
+
